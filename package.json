@@ -1,7 +1,6 @@
 {
   "name": "reja",
   "version": "1.0.0",
-  "description": "",
   "main": "task-b.js",
   "scripts": {
     "start": "node index.js",
@@ -17,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/SobirjonFayziyevich/reja/issues"
   },
-  "homepage": "https://github.com/SobirjonFayziyevich/reja#readme"
+  "homepage": "https://github.com/SobirjonFayziyevich/reja#readme",
+  "description": ""
 }
