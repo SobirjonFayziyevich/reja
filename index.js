@@ -1,12 +1,17 @@
-function fruit (str1, str2){
-  // Harflarni ketma- krtlikda joylashtirib olamiz.
+function fruit (str1, str2) {
+  // ikkila qatorni harf qatoriga ayirib aifbbo tartibida saqlaymiz.
 
-  const new_fruit1 = str1.sort('').join('');
-  const new_fruit2 = str2.sort('').join('');
-  return new_fruit = fruit; 
+
+  const new_fruit1 = str1.split('').sort().join('');
+  const new_fruit2 = str2.split('').sort().join('');
+
+  //harflar qatorini solishtiramiz.
+  return new_fruit1 === new_fruit2; 
 }
-// 
-const string1 = "olma";
-const string2 = "olcha";
-const natija = friut(string1, string2);
-console.log(natija) 
+const string1 = "hayr";
+const string2 = "ryah";
+const result = fruit(string1, string2);
+console.log(result);
+
+
+
