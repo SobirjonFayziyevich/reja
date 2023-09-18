@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "task-b.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "train": "node train.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,14 @@
     "url": "https://github.com/SobirjonFayziyevich/reja/issues"
   },
   "homepage": "https://github.com/SobirjonFayziyevich/reja#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "moment": "^2.29.4",
+    "nodemon": "^3.0.1",
+    "require": "^2.4.20",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0"
+  },
   "description": ""
 }
