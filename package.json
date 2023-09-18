@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "task-b.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "train": "node train.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,8 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "inquirer": "^8.2.6",
+    "modele": "^2.0.1",
+    "module": "^1.2.5",
     "moment": "^2.29.4",
     "nodemon": "^3.0.1",
     "require": "^2.4.20",
