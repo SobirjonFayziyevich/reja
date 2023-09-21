@@ -1,15 +1,36 @@
-function fruit (str1, str2) {
-    // ikkila qatorni harf qatoriga ayirib aifbbo tartibida saqlaymiz.
+TASK - D
+
+class Shop {
   
-  
-    const new_fruit1 = str1.split('').sort().join('');
-    const new_fruit2 = str2.split('').sort().join('');
-  
-    //harflar qatorini solishtiramiz.
-    return new_fruit1 === new_fruit2; 
+  constructor(bread, coffee, tea) {
+     this.bread = bread;
+     this.coffee = coffee;
+     this.tea = tea;
+  } 
+
+  sotish() {
+     console.log(`Salom bugun 12:30gacha ${this.bread}dona non, ${this.coffee} kofe va ${this.tea}dona choy sotildi.`);
   }
-  const string1 = "hayr";
-  const string2 = "ryah";
-  const result = fruit(string1, string2);
-  console.log(result);
+  
+  
+  
+  qabul() {
+    console.log(`Bugun qabul qilingan mahsulotlar orasida ${this.coffee}dona kofening miqdori kamroq.`);
+  }
+    
+  
+ qoldiq() {
+   console.log('Bugun kechki 6:00dan keyin choy va kofedan dona qoldi.'); 
+  }
+}  
+  
+ const product = new Shop(5, 8, 4);
+ const oldProduct = new Shop(2, 3, 1);
+ const newProduct = new Shop ();
+
+ 
+product.sotish();
+oldProduct.qabul();
+newProduct.qoldiq();
+  
   
