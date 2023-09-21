@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "task-b.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "train": "nodemon train.js",
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
