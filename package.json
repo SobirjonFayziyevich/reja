@@ -4,7 +4,8 @@
   "main": "task-b.js",
   "scripts": {
     "start": "node index.js",
-    "train": "node train.js",
+    "train": "nodemon train.js",
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,5 +30,6 @@
     "uuid": "^9.0.1",
     "validator": "^13.11.0"
   },
+  "devDependencies": {},
   "description": ""
 }
