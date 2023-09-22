@@ -20,7 +20,7 @@ class foodStore {
     console.log(`hozirda sizning foodStore ${bread} ta bread ${coffee} ta coffee va ${tea} ta tea sotildi`);
     showMeTime();
   }
-  
+
   
   qoshish(bread, coffee, tea) {
     this.bread += bread; this.coffee += coffee; this.tea += tea;
