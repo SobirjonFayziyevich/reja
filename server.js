@@ -12,10 +12,6 @@ app.use(express.json());                       //  kirib kelayotgan json formatn
 app.use(express.urlencoded({extended: true})); //HTML traditional reques form post qilgan malumotni express qabul qilib oladi. 
 
 //2: Session code;
-
-
-
-
 //3: Views code.... Backendda Fronted yasaymiz;
 app.set("views", "views"); 
 app.set("view engine", "ejs");         //views folderni ichidan malumot olib uqiydi. agar folder nomini uzgartirsak (views) folderni ham nomini uzg
@@ -23,14 +19,14 @@ app.set("view engine", "ejs");         //views folderni ichidan malumot olib uqi
 
 //4 Routing code  roterlarga muljallanga ;
 
+app.post("/create-item", (req, res) => {
+    console.log(req.body);
+    res.json({test: "success" });
+});
+
 app.get("/", function (req, res) {
-    res.end(`<h1>Hello World</h1>`);
+    res.render("harid");
 });
-
-app.get("/gift", function (req, res) {
-    res.end(`<h1>Siz sovgalar bulimidasiz</h1>`);
-});
-
 
 
 //http bizning CORE MODEL
@@ -39,7 +35,6 @@ let PORT = 3000;
 server.listen(PORT, function () {
     console.log(`The server is running successfully on port: ${PORT}`);
 });
-
 
 
 
