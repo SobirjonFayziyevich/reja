@@ -20,10 +20,12 @@
   },
   "homepage": "https://github.com/SobirjonFayziyevich/reja#readme",
   "dependencies": {
+    "author": "^1.0.0",
     "chalk": "^4.1.2",
     "ejs": "^3.1.9",
     "export": "^0.1.337",
     "express": "^4.18.2",
+    "fs": "^0.0.1-security",
     "inquirer": "^8.2.6",
     "JSON": "^1.0.0",
     "modele": "^2.0.1",
@@ -34,6 +36,5 @@
     "uuid": "^9.0.1",
     "validator": "^13.11.0"
   },
-  "devDependencies": {},
   "description": ""
 }

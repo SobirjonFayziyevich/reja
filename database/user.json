@@ -1,0 +1,21 @@
+{
+"name": "JohnDev",
+"profession": "Software Engineer",
+"age": 20,
+"residence": "Nova Scotia,",
+  "freelance": "Available",
+"address": "Canada",
+"languages": ["Uzbek", "Korean", "English"],
+"skills": ["Html", "Css", "JS", "NodeJS", "Python"],
+"extra_skills": ["Bootstrap", "Css", "Js", "NodeJS", "Python"],
+"work_place": "Hospital",
+"service_desc": "amen minim mollit non deserunt ullamco est sit aliqua dolor do amer sint.",
+"about_me": "Lorem ipsum dolar sit amet, consctetur adpiscing elit. Et, volutpatfeugiat placreatn lobortis. Naotue",
+"city": "Denau",
+"title": ["Flover",  "SeedLings", "Gardner", "old", "New"],
+"flower_desc": ["What is a Flower?", "What is a Seedling?", "Who is Gardner"],
+"flower_name": ["Rose", "Tulip", "Daffodil", "Poppy", "Sunflower", "Bluebell", "Rose", "Snowdrop", "Cherry", "blossom"],
+"flower_price": ["15$", "20$", "40$", "50$", "35$", "45$", "56$", "22$","60$","23$", "45$", "54$"],
+"famous_words": ["World is beautiful with Flower"],
+"famous_name": ["Steve Jobs"]
+}
