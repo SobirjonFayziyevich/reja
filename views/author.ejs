@@ -1,23 +1,151 @@
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Portfolio</title>
+
+
 </head>
-
 <body>
-   <div class="frame">
-       <div class="main_frame">
-           <div class="left_frame"></div>
-           <div class="midd_frame"></div>
-           <div class="right_frame"></div>
-       </div>
-   </div>
-</body>
+<div class="frame">
+    <div class="main_frame">
+        <div class="left_frame">
+            <div class="left_1">
+                <div class="left_1-1">
+                    <img src="images/profile.png" width="156px" height="142px" alt=""/>
+                </div>
+                <div class="left_1-2"><%=user.name%></div>
+                <div class="left_1-3"><%=user.profession%></div>
+                <div class="left-icons">
+                    <a class="link_href" href="">
+                        <div class="icon">
+                            <img src="icon/Icons-facebook.svg" class="icon--1" alt="" />
+                        </div>
+                    </a>
+                    <a class="link_href" href="">
+                        <div class="icon">
+                            <img src="icon/Icons-instagram.svg" class="icon-2" alt="" />
+                        </div>
+                    </a>
+                    <a class="link_href" href="">
+                        <div class="icon">
+                            <img src="icon/Icons-twitter.svg" class="icon-2" alt="" />
+                        </div>
+                    </a>
+                    <a class="link_href" href="">
+                        <div class="icon">
+                            <img src="icon/Icons-linkedin.svg" class="icon-2" alt="" />
+                        </div>
+                    </a>
+                    <a class="link_href" href="">
+                        <div class="icon">
+                            <img src="icon/Icons-Youtube.svg" class="icon-2" alt="" />
+                        </div>
+                    </a>
+                    <a class="link_href" href="">
+                        <div class="icon">
+                            <img src="icon/Icons-dribbble.svg" class="icon-2" alt="" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="marginer"></div>
 
+            <!--               about qismi boshlandi-->
+
+            <div class="left_2_about">
+
+                <div> <span class="age_id">Age:</span>
+                    <%=user.age%>
+                </div>
+                <div> <span class="about_id">Residence:</span>
+                    <%=user.residence%>
+                </div>
+                <div> <span class="about_id_2">Freelance:</span>
+                    <%=user.freelance%>
+                </div>
+                <div> <span class="about_id_3">Address:</span>
+                    <%=user.address%>
+                </div>
+            </div>
+            <div class="marginer"></div>
+
+            <!--               about qismi tugadi -->
+
+
+            <!--     language qismi boshlandi-->
+            <div class="left_3_lang">
+                <div class="language">
+                    <span class="language">Languages</span>
+
+                </div>
+
+            </div>
+
+            <div class="marginer"></div>
+
+            <div class="left_4_skill"></div>
+            <div class="marginer"></div>
+
+            <div class="left_5"></div>
+            <div class="marginer"></div>
+
+
+         <!-- midd section -->
+
+        </div>
+        <div class="midd_frame">
+            <div class="Background-Image">
+                <div><span class="Job">Doctor neurologists in OHSU Hospital</span></div>
+                    <div><span class="Text">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Et, volutpat feugiat placerat lobortis.<br> Natoque rutrum semper sed suspendisse nunc lectus.</span></div>
+                        div> <span class="Hire Me"></span> <img src="btn_icon/button-book-me.svg"class="Hire Me"></div>
+                        div> <span class="picture"></span>
+                        <img src="btn_icon/your-image-1.jpg"class="Your-Image">
+    </div>
+    </div>
+
+        <!--Ong taraf section qisim boshlash-->
+
+        <div class="right_frame">
+            <div> <span class="right_id"></span>
+                <%user.moon%>
+                <img src="btn_icon/contrast.svg"class="Contrast">
+            </div>
+
+            <div> <span class="right_id"></span>
+                <img src="btn_icon/pop-up.svg"class="Home">
+            </div>
+            <div> <span class="right_id"></span>
+                <img src="btn_icon/home.svg"class="Home2">
+            </div>
+            <div> <span class="right_id"></span>
+                <img src="btn_icon/service.svg"class="Service">
+            </div>
+            <div> <span class="right_id"></span>
+                <img src="btn_icon/cv.svg"class="Cv">
+            </div>
+            <div> <span class="right_id"></span>
+                <img src="btn_icon/portfolio.svg"class="Portfolio">
+            </div>
+            <div> <span class="right_id"></span>
+                <img src="btn_icon/blog.svg"class="Blog">
+            </div>
+            <div> <span class="right_id"></span>
+                <img src="btn_icon/contact.svg"class="Contact">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
