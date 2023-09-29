@@ -1,178 +1,16 @@
 
-/*.frame {*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    background: whitesmoke;*/
-/*    position: relative;*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: center;*/
-/*}*/
-/*.frame .main_frame {*/
-/*    position: relative;*/
-/*    width:1440px;*/
-/*    height: 1312px;*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    align-items: center;*/
-/*    margin-top: 2px;*/
-/*    background: #ecd0a5;*/
-/*}*/
-
-
-/*.main_frame .left_frame {*/
-/*    position: relative;*/
-/*    width: 305px;*/
-/*    height: 1315px;*/
-/*    background-color: white;*/
-
-/*}*/
-
-/*.main_frame .midd_frame {*/
-/*    position: relative;*/
-/*    width: 775px;*/
-/*    height: 1254px;*/
-/*    margin-left: 30px;*/
-/*    margin-right: 27px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    */
-
-/*}*/
-
-/*.main_frame .right_frame {*/
-/*    position: relative;*/
-/*    width: 108px;*/
-/*    height: 1315px;*/
-/*    flex-shrink: 0;*/
-/*    align-items: center;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    color: red;*/
-/*}*/
-/*.main_frame .left_1 { !* rasm joylashgan qismi*!*/
-/*    position: relative;*/
-/*    width: 228px;*/
-/*    height: 267px;*/
-/*    margin-top: 50px;*/
-/*    margin-left: 37px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
-
-/*.main_frame .left_1 .left_1-1 {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    position: relative;*/
-/*    width: 156.164px;*/
-/*    height: 135.053px;*/
-/*    !* margin-left: 36.44px;*/
-/*    margin-right: 35.4px; *!*/
-/*    margin-bottom: 29.46px;*/
-/*}*/
-
-
-/*.main_frame .marginer {*/
-/*    position: relative;*/
-/*    width: 220px;*/
-/*    height: 1.5px;*/
-/*    margin-left: 40px;*/
-/*    margin-bottom: 25px;*/
-/*    margin-top: 39px;*/
-/*    !* background: ;*!*/
-/*    border: 1.5px solid #f0f0f6;*/
-/*}*/
-/*.main_frame .left_2_about { !* about section *!*/
-/*    position: relative;*/
-/*    display: flex;*/
-/*    width: 221px;*/
-/*    height: 126px;*/
-/*    margin-left: 47px;*/
-/*    flex-direction: row;*/
-
-/*}*/
-
-
-
-.left-icons {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 228px;
-    margin-top: 19px;
-    border: 1px solid red;
-
-}
-
-.left_2-1-icons {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 228px;
-    margin-top: 19px;
-}
-
-
-.link_href {
-    text-decoration: none;
-    color: black;
-}
-
-.icon {
-    position: relative;
-    width: 28px;
-    height: 26px;
-    border-radius: 50%;
-    filter: drop-shadow(0 4px 4px rgba(0,0,0,.25));
-    /* Yellow */
-    background: #FFB400;
-    flex-shrink: 0;
-}
-
-.icon-1 {
-    position: relative;
-    left: 29.17%;
-    right: 27.09%;
-    margin-top: 5.86px;
-}
-
-/*.main_frame .left_frame .left_4 {*/
-/*    position: relative;*/
-/*    width: 220px;*/
-/*    height: 252px;*/
-/*    margin-top: 25px;*/
-/*    margin-left: 45px;*/
-/*    background-color: aqua;*/
-/*}*/
-/*.main_frame .left_frame .left_5 {*/
-/*    position: relative;*/
-/*    width: 186px;*/
-/*    height: 148px;*/
-/*    margin-top: 25px;*/
-/*    margin-left: 45px;*/
-/*    background-color: aqua;*/
-/*}*/
-
-
-.frame {
+.frame {   /* asosiy page */
     width: 100%;
     height: 100%;
+    background: white;
     position: relative;
-    display: flex;
     flex-direction: row;
     justify-content: center;
-    background: #f0f0f6;;
+
+
 }
 
-
-.frame .main_frame {
+.main_frame {
     position: relative;
     width: 1440px;
     height: 1312px;
@@ -180,9 +18,8 @@
     flex-direction: row;
     align-items: center;
     margin-top: 2px;
-    background: #f0f0f6;;
+    background-color: whitesmoke;
 }
-
 .main_frame .left_frame {
     position: relative;
     width: 305px;
@@ -190,843 +27,619 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+
 }
 
-                   /* midd_frame */
-
-.main_frame .midd_frame  {
+.main_frame .midd_frame {
     position: relative;
     width: 970px;
     height: 1259px;
-    display: flex;
-    flex-direction: row;
     margin-left: 30px;
     margin-right: 27px;
-    border: 1px solid red;
-}
-
-.Background-Image {
-    width: 971px;
-    height: 454.3px;
-    flex-grow: 0;
-    padding: 37.9px 37px 14.7px 36.1px;
-    background-color: aquamarine;
-}
-.Job {
-    width: 400px;
-    height: 116.7px;
-    flex-grow: 0;
-    margin: 1.9px 336.8px 17.1px 4px;
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.24;
-    letter-spacing: normal;
-    text-align: left;
-    color: #2b2b2b;
-    margin-top: 10px;
-}
-.Text {
-    width: 424.4px;
-    height: 85.6px;
-    flex-grow: 0;
-    /*margin: 17.1px 31.1px 12.1px 8.9px;*/
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-}
-.age_id {
-    width: 46.2px;
-    height: 24px;
-    flex-grow: 0;
-    margin: 0 155.7px 1px 0;
-    background-color: #ffb400;
-    padding: 0 8px 0 5px;
-    flex-direction: row;
-    position: relative;
-    margin-left: 45px;
-    line-height: 1.6;
-    color: #2b2b2b;
-    font-size: 15px;
-    text-align: left;
-
-}                           w
-
-
-/*yoshi 27*/
-
-/*.about_id {*/
-/*    width: 85px;*/
-/*    height: 24px;*/
-/*    flex-grow: 0;*/
-/*    margin: 0 117px 0 0;*/
-/*    padding: 0 6px 0 5px;*/
-/*    background-color: #ffb400;*/
-/*    margin-left: 45px;*/
-/*    position: relative;*/
-/*    flex-direction: row;*/
-/*    line-height: 1.6;*/
-/*    color: #2b2b2b;*/
-/*    font-size: 15px;*/
-/*    text-align: left;*/
-
-/*}*/
-
-/*.about_id_2 {*/
-/*    width: 85px;*/
-/*    height: 24px;*/
-/*    flex-grow: 0;*/
-/*    margin: 0 85px 0 0;*/
-/*    padding: 0 6px 0 5px;*/
-/*    background-color: #ffb400;*/
-/*    margin-left: 45px;*/
-/*    line-height: 1.6;*/
-/*    color: #2b2b2b;*/
-/*    font-size: 15px;*/
-/*    text-align: left;*/
-
-/*}*/
-
-/*.about_id_3 {*/
-/*    width: 75px;*/
-/*    height: 24px;*/
-/*    flex-grow: 0;*/
-/*    margin-right: 60px;*/
-/*    margin-top: 10px;*/
-/*    padding: 0 7px 0 5px;*/
-/*    background-color: #ffb400;*/
-/*    margin-left: 45px;*/
-/*    line-height: 1.6;*/
-/*    color: #2b2b2b;*/
-/*    font-size: 15px;*/
-/*    flex-direction: row;*/
-/*    text-align: left;*/
-
-/*}*/
-
-
-
-/*!*language qismi *!*/
-
-/*.language {*/
-/*    width: 95px;*/
-/*    height: 22px;*/
-/*    flex-grow: 0;*/
-/*    font-family: sans-serif;*/
-/*    font-size: 18px;*/
-/*    font-weight: 500;*/
-/*    font-style: normal;*/
-/*    line-height: 1.24;*/
-/*    text-align: left;*/
-/*    color: #2b2b2b;*/
-/*    margin-left: 23px;*/
-/*    margin-bottom: 15px;*/
-/*    position: relative;*/
-/*    display: flex;*/
-/*}*/
-/*!*till qismi *!*/
-/*.left_4 {*/
-/*    flex-direction: column;*/
-/*    display: flex;*/
-/*    text-align: left;*/
-/*}*/
-/*.skill_1{*/
-/*    width: 49px;*/
-/*    height: 24px;*/
-/*    flex-grow: 0;*/
-/*    font-family: sans-serif;*/
-/*    font-size: 15px;*/
-/*    font-style: normal;*/
-/*    line-height: 1.6;*/
-/*    text-align: left;*/
-/*    margin-left: 47px;*/
-/*    margin-top: 10px;*/
-/*    color: #767676;*/
-/*    margin-bottom: 15px;*/
-/*    position: relative;*/
-/*    flex-direction: row;*/
-/*}*/
-
-/*span {*/
-/*    width: 38px;*/
-/*    height: 24px;*/
-/*    flex-grow: 0;*/
-/*    margin: 0 0 0 133px;*/
-/*    font-family: sans-serif;*/
-/*    font-size: 15px;*/
-/*    font-weight: normal;*/
-/*    font-stretch: normal;*/
-/*    font-style: normal;*/
-/*    line-height: 1.6;*/
-/*    letter-spacing: normal;*/
-/*    text-align: left;*/
-/*    color: #767676;*/
-/*    position: relative;*/
-/*}*/
-/*.percent_1{*/
-/*    text-align: left;*/
-/*    flex-direction: row;*/
-/*    font-style: normal;*/
-/*    margin-left: 45px;*/
-/*    position: relative;*/
-/*}*/
-
-/*.extra_skill{*/
-/*    margin-left: 10px;*/
-/*    margin-bottom: 20px;*/
-/*    flex-direction: row;*/
-/*    font-style: normal;*/
-/*    position: relative;*/
-
-/*}*/
-
-/*.Icons {*/
-/*    position: relative;*/
-/*    width: 20px;*/
-/*    height: 20px;*/
-/*    flex-grow: 0;*/
-/*    margin: 4px 15px 5px 0;*/
-/*    object-fit: contain;*/
-/*}*/
-
-
-/*!*right qismi boshlanishi*!*/
-
-/*.main_frame .right_frame  {*/
-/*    position: relative;*/
-/*    width: 108px;*/
-/*    height: 1315px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    border: 1px solid red;*/
-/*}*/
-
-
-
-/*.right_id {*/
-/*    width: 30px;*/
-/*    height: 30px;*/
-/*    margin: 35px 20px 50px 18px;*/
-
-/*}*/
-/*.Contrast {*/
-/*    margin-top: 40px;*/
-/*}*/
-
-
-/*.Home {*/
-/*    width: 50px;*/
-/*    height: 30px;*/
-/*    flex-grow: 0;*/
-/*    font-family: Inter;*/
-/*    font-size: 12px;*/
-/*    font-weight: 500;*/
-/*    text-align: center;*/
-/*    color: #fff;*/
-/*    flex-direction: column;*/
-/*    margin-top: 200px;*/
-/*}*/
-
-/*.Home2 {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    flex-grow: 0;*/
-/*    !*margin: 5px 12px 0 13px;*!*/
-/*    background-color: #ffb400;*/
-/*    margin-top: 5px;*/
-/*    border-radius: 50%;*/
-/*}*/
-
-
-/*img.Service {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    flex-grow: 0;*/
-/*    margin: 43px 12px 43px 13px;*/
-/*    object-fit: contain;*/
-/*    margin-left: auto;*/
-/*}*/
-
-
-/*img.Cv {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    flex-grow: 0;*/
-/*    margin: 43px 12px 43px 13px;*/
-/*    object-fit: contain;*/
-/*    margin-left: auto;*/
-/*}*/
-
-/*.Portfolio {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    flex-grow: 0;*/
-/*    margin: 43px 12px 43px 13px;*/
-/*    object-fit: contain;*/
-/*    margin-left: auto;*/
-/*}*/
-
-/*img.Blog {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    flex-grow: 0;*/
-/*    margin: 43px 12px 43px 13px;*/
-/*    object-fit: contain;*/
-/*    margin-left: auto;*/
-/*}*/
-/*img.Contact {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*    flex-grow: 0;*/
-/*    margin: 43px 12px 0 13px;*/
-/*    object-fit: contain;*/
-/*    margin-left: auto;*/
-/*}*/
-
-/*midd teppa qismi */
-
-.background_image {
-    width: 971px;
-    height: 454.3px;
-    flex-grow: 0;
-    background-color: yellow;
-    position: relative;
-    flex-direction: row;
     display: flex;
-}.age_id {
-     width: 46.2px;
-     height: 24px;
-     flex-grow: 0;
-     margin: 0 155.7px 1px 0;
-     background-color: #ffb400;
-     padding: 0 8px 0 5px;
-     flex-direction: row;
-     position: relative;
-     margin-left: 45px;
-     line-height: 1.6;
-     color: #2b2b2b;
-     font-size: 15px;
-     text-align: left;
-
- }
-
-/*yoshi 27*/
-
-.about_id {
-    width: 85px;
-    height: 24px;
-    flex-grow: 0;
-    margin: 0 117px 0 0;
-    padding: 0 6px 0 5px;
-    background-color: #ffb400;
-    margin-left: 45px;
+    flex-direction: column;
+}
+.main_frame .right_frame {
     position: relative;
-    flex-direction: row;
-    line-height: 1.6;
-    color: #2b2b2b;
-    font-size: 15px;
-    text-align: left;
-
-}
-
-.about_id_2 {
-    width: 85px;
-    height: 24px;
-    flex-grow: 0;
-    margin: 0 85px 0 0;
-    padding: 0 6px 0 5px;
-    background-color: #ffb400;
-    margin-left: 45px;
-    line-height: 1.6;
-    color: #2b2b2b;
-    font-size: 15px;
-    text-align: left;
-
-}
-
-.about_id_3 {
-    width: 75px;
-    height: 24px;
-    flex-grow: 0;
-    margin-right: 60px;
-    margin-top: 10px;
-    padding: 0 7px 0 5px;
-    background-color: #ffb400;
-    margin-left: 45px;
-    line-height: 1.6;
-    color: #2b2b2b;
-    font-size: 15px;
-    flex-direction: row;
-    text-align: left;
-
-}
-
-
-
-/*language qismi */
-
-
-/*right qismi boshlanishi*/
-
-.main_frame .right_frame  {
-    position: relative;
-    width: 108px;
+    width: 110px;
     height: 1315px;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    background: white;
 }
 
-
-
-.right_id {
-    width: 30px;
-    height: 30px;
-    margin: 35px 20px 50px 18px;
-
-}
-.Contrast {
-    margin-top: 40px;
-}
-
-
-.Home {
-    width: 50px;
-    height: 30px;
-    flex-grow: 0;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 500;
-    text-align: center;
-    color: #fff;
-    flex-direction: column;
-    margin-top: 200px;
-}
-
-.Home2 {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    /*margin: 5px 12px 0 13px;*/
-    background-color: #ffb400;
-    margin-top: 5px;
-    border-radius: 50%;
-}
-
-
-img.Service {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    margin: 43px 12px 43px 13px;
-    object-fit: contain;
-    margin-left: auto;
-}
-
-
-img.Cv {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    margin: 43px 12px 43px 13px;
-    object-fit: contain;
-    margin-left: auto;
-}
-
-.Portfolio {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    margin: 43px 12px 43px 13px;
-    object-fit: contain;
-    margin-left: auto;
-}
-
-img.Blog {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    margin: 43px 12px 43px 13px;
-    object-fit: contain;
-    margin-left: auto;
-}
-img.Contact {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    margin: 43px 12px 0 13px;
-    object-fit: contain;
-    margin-left: auto;
-}
-
-/*midd teppa qismi */
-
-.background_image {
-    width: 971px;
-    height: 454.3px;
-    flex-grow: 0;
-    background-color: yellow;
-    position: relative;
-    flex-direction: row;
-    display: flex;
-}
-
-.Hire Me {
-    width: 154.2px;
-    height: 49.6px;
-    flex-grow: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 22.8px 160.2px 28.2px 4px;
-    padding: 0;
-    object-fit: contain;
-
-}
-
-img.Your-Image-1 {
-    width: 326.1px;
-    height: 446.6px;
-    flex-grow: 0;
-    margin: 19.5px 83.6px 139.9px 17.3px;
-    object-fit: contain;
-}
-
-
-
-
-
-
-.main_frame .right_frame  {
-    position: relative;
-    width: 108px;
-    height: 1315px;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid red;
-}
-
-
-
-.right_id {
-    width: 30px;
-    height: 30px;
-    margin: 35px 20px 50px 18px;
-
-}
-.Contrast {
-    margin-top: 40px;
-}
-
-
-.Home {
-    width: 50px;
-    height: 30px;
-    flex-grow: 0;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 500;
-    text-align: center;
-    color: #fff;
-    flex-direction: column;
-    margin-top: 200px;
-}
-
-.Home2 {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    /*margin: 5px 12px 0 13px;*/
-    background-color: #ffb400;
-    margin-top: 5px;
-    border-radius: 50%;
-}
-
-
-img.Service {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    margin: 43px 12px 43px 13px;
-    object-fit: contain;
-    margin-left: auto;
-}
-
-
-img.Cv {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    margin: 43px 12px 43px 13px;
-    object-fit: contain;
-    margin-left: auto;
-}
-
-.Portfolio {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    margin: 43px 12px 43px 13px;
-    object-fit: contain;
-    margin-left: auto;
-}
-
-img.Blog {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    margin: 43px 12px 43px 13px;
-    object-fit: contain;
-    margin-left: auto;
-}
-img.Contact {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    margin: 43px 12px 0 13px;
-    object-fit: contain;
-    margin-left: auto;
-}
-/* left_frame tugadi */
-
-.main_frame  .left_1  {
-    position: relative;
+.main_frame .left_frame .left_1 {     /* rasm va ismlar turgan joy*/
     width: 228px;
     height: 267px;
-    display: flex;
     margin-top: 50px;
-    margin-left: 47px;
-    justify-content: center;
+    margin-left: 37px;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    /*background-color: aqua;*/
 }
-.main_frame .left_1 .left_1 {
+
+.main_frame .left_frame .left_1 .left_1-1 {    /*rasm qism */
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 156.164px;
-    height: 135.053px;
-    margin-bottom: 47px;
-    margin-left: 82.4px;
-    margin-right: 66.44px;
+    width: 156.16px;
+    height: 142.53px;
+    margin-bottom: 29.46px;
 }
 
-.main_frame .marginer {
-    width: 220px;
-    height: 0px;
+.main_frame .left_frame .left_1 .left_1-2 {    /* name qism */
     position: relative;
-    margin-left: 47px;
-    margin-bottom: 25px;
-    margin-top: 39px;
-    border: 1.5px solid #f0f0f6;
-}
-
-
-.main_frame .left_frame .left_2 {
-    position: relative;
-    width: 221px;
-    height: 126px;
-    margin-left: 47px;
-    margin-right: 37px;
-}
-
-.main_frame .left_frame .left_1-3 {
-    position: relative;
+    width: 66.63px;
+    height: 20.9px;
+    margin-bottom: 6.65px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 123.6%;
     display: flex;
     justify-content: center;
-    width: 147.836px;
-    height: 24.31px;
-    color: #767676;
-    /* Paragraph Progress - 15 */
-    font-family: sans-serif;
-    font-size: 15px;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+.main_frame .left_frame .left_1 .left_1-3 {  /* soha qismi */
+    position: relative;
+    width: 305px;
+    height: 25.65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
     font-style: normal;
     font-weight: normal;
-    line-height: 24px; /* 160% */
+    font-size: 20px;
+    line-height: 24px;
     text-transform: capitalize;
-    font-feature-settings: 'calt' off, 'kern' off;
-}
-
-/*ism*/
-.main_frame .left_frame .left_1_2 {
-    width: 64px;
-    height: 20.8px;
-    flex-grow: 0;
-    margin: 27px 84.9px 6.2px 79.1px;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.24;
-    letter-spacing: normal;
-    text-align: left;
-    color: #2b2b2b;
+    font-feature-settings: "calt" off,  "kern" off ;
+    color: #767676;
+    margin-bottom: 10px;
+    margin-top: 10px;
 
 }
-
-.main_frame .left_frame .left_3 {
-    position: relative;
-    width: 220px;
-    height: 153px;
-    margin-left: 47px;
-    margin-top: 25px;
-    background-color:  #f0f0f6;
-}
-
-
-
-.main_frame .left_frame .left_4 {
-    position: relative;
-    width: 222px;
-    height: 252px;
-    margin-left: 47px;
-    margin-top: 45px;
-    background-color:  #f0f0f6;
-}
-
-.left-icons{
+.left-icons {  /*chap qismdagi iconlar uchun */
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    width: 238px;
     margin-top: 19px;
-    width: 227.99px;
-    height: 21.99px;
-    border-radius: 50%;
-    border: none;
 }
-
-.link_href {
+.link_href {                      /*icons start */
     text-decoration: none;
     color: black;
-    border-radius: 50%;
 }
-
 .icon {
     position: relative;
-    width: 28px;
-    height: 26px;
+    width: 24.99px;
+    height: 22.8px;
     border-radius: 50%;
-    filter: drop-shadow(0 4px 4px rgba(0,0,0,.25));
-    /* Yellow */
-    background: #FFB400;
-    flex-shrink: 0;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    background: #ffb400; /*yellow */
 }
 
-
-.icon-1 {
-    width: 12.4px;
-    height: 8.7px;
-    background-color: #2b2b2b;
-    position: relative;
-    border-radius: 50%;
-}
-
-.icon-1 {
-    position: relative;
-    left: 29.17%;
-    right: 27.09%;
+.icon-1 {                    /* iconlarni aylana kurinishi */
+   /* position: relative; */
+    display: inline-flex;
+    left: 29.17px;
+    right: 27.08px;
     margin-top: 5.86px;
+    padding-left: 4px;
+    flex-grow: 0;
+    object-fit: contain;
+
 }
 
-
-
-
-/*about*/
-
-.age_id {
-    width: 46.2px;
-    height: 24px;
-    flex-grow: 0;
-    margin: 0 155.7px 1px 0;
-    background-color: #ffb400;
-    padding: 0 8px 0 5px;
-    flex-direction: row;
+.main_frame .left_frame .marginer {      /* margin cod bosh qismi */
     position: relative;
-    margin-left: 45px;
-    line-height: 1.6;
-    color: #2b2b2b;
-    font-size: 15px;
-    text-align: left;
-
+    width: 220px;
+    height: 0px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    margin-top: 39px;
+    border: 1.5px solid #F0F0F6;
 }
-
-/*yoshi */
-
-
-.about_id {
-    width: 85px;
-    height: 24px;
-    flex-grow: 0;
-    margin: 0 117px 0 0;
-    padding: 0 6px 0 5px;
-    background-color: #ffb400;
-    margin-left: 10px;
+                                   /* chap tomon 2-section  */
+                            /*  Age,Resodancy,freelance,adressning xossalari */
+.main_frame .left_frame .left_2 {
     position: relative;
+    width: 221px;
+    height: 126px;
+    margin-left: 44px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+
+.main_frame .left_frame .left_2 .left_2-1 {
+    position: relative;
+    display: flex;
+    /* width: 221px; */
+    align-items: center;
     flex-direction: row;
-    line-height: 1.6;
-    color: #2b2b2b;
-    font-size: 15px;
-    text-align: left;
-    font-family: Inter;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    justify-content: space-between;
+
 
 }
 
-.about_id_2 {
-    width: 85px;
-    height: 24px;
-    flex-grow: 0;
-    margin: 0 85px 0 0;
-    padding: 0 6px 0 5px;
-    background-color: #ffb400;
+.left_2_info {
+    color: #2B2B2B;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    /* Paragraph Progress - 15 */
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10px; /* 160% */
+    text-transform: capitalize;
+    font-size: 23px;
+    /*background-color: #FFB400;*/
+    background: #FFB400;
+
+}
+.left_2_infor {
+    color: #2B2B2B;
+    text-align: right;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+
+    /* Paragraph Progress - 15 */
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px; /* 160% */
+    text-transform: capitalize;
+    margin-bottom: 18px;
+
+
+
+}
+.left_2_available {
+    color: yellowgreen;
+    text-align: right;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    /* Paragraph Progress - 15 */
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px; /* 160% */
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+.main_frame .left_frame .left_3 {    /*left_3 section start*/
+    position: relative;
+    width: 220px;
+    height: 153px;
+    margin-bottom: 12px;
+    /*margin-top: 20px;*/
     margin-left: 45px;
-    line-height: 1.6;
-    color: #2b2b2b;
-    font-size: 15px;
-    text-align: left;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
 
 }
 
-.about_id_3 {
-    width: 75px;
-    height: 24px;
-    flex-grow: 0;
-    margin-right: 60px;
-    margin-top: 10px;
-    padding: 0 7px 0 5px;
-    background-color: #ffb400;
-    margin-left: 45px;
-    line-height: 1.6;
-    color: #2b2b2b;
-    font-size: 15px;
-    flex-direction: row;
-    text-align: left;
-
-}
-
-/*language qismi */
-
-.language {
+.language {  /* umumiy til sectionga qiymat */
+    /*font-size: 20px;*/
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
     width: 95px;
     height: 22px;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+.lang { /*har bir til qiymatlariga shalk berish*/
+    margin-bottom: 10px; /* qiymatni tepagaga siljitadi*/
+    margin-top: 17px; /* qiymatni pastgaga siljitadi*/
+    /* padding: auto; */
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 160% */
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.line-1 {
+    /*width: 220px;*/
+    /*height: 4px;*/
+    /*width: 190px;*/
+    /*height: 2px;*/
+    border-radius: 15px;
+    border: 1.5px solid #FFB400;
+    background-color: #FFB400;
+    margin: 5px 0 9px;
+    object-fit: contain;
+    padding: 1px 29px 1px 1px;
+}
+.line-2 {
+    /*width: 220px;*/
+    /*height: 4px;*/
+    /*width: 190px;*/
+    /*height: 2px;*/
     flex-grow: 0;
+    border-radius: 30px;
+    border: 1.5px solid #FFB400;
+    background: linear-gradient(to right, #FFB400 80%, white 20%);
+    flex-grow: 0;
+    padding: 1px 29px 1px 1px;
+}
+
+.line-3 {
+    /*width: 220px;*/
+    /*height: 4px;*/
+    /*width: 190px;*/
+    /*height: 2px;*/
+    border-radius: 30px;
+    border: 1.5px solid #FFB400;
+    background: linear-gradient(to right, #FFB400 70%, white 30%);
+    padding: 1px 29px 1px 1px;
+
+}
+
+.main_frame .left_4 {
+    position: relative;
+    width: 220px;
+    height: 252px;
+    margin-top: 25px;
+    margin-left: 45px;
+    /*background-color: aqua;*/
+}
+
+.skills {
+    margin-top: 10px;
+    /* padding: auto; */
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 160% */
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.skill {
+
+    margin-top: 10px;
+    /* padding: auto; */
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 160% */
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.line-1-skill {
+    width: 220px;
+    height: 4px;
+    border-radius: 10px;
+    border: 1.5px solid #FFB400;
+    background: linear-gradient(to right, #FFB400 90%, white 10%);
+    /* background-image: linear-gradient(from left yellow 60%, white 40%); */
+}
+
+.line-2-skill {
+    width: 220px;
+    height: 4px;
+    border-radius: 10px;
+    border: 1.5px solid #FFB400;
+    background: linear-gradient(to right, #FFB400 85%, white 15%);
+    /* background-image: linear-gradient(from left yellow 60%, white 40%); */
+}
+
+.line-3-skill {
+    width: 220px;
+    height: 4px;
+    border-radius: 10px;
+    border: 1.5px solid #FFB400;
+    background: linear-gradient(to right, #FFB400 80%, white 20%);
+    /* background-image: linear-gradient(from left yellow 60%, white 40%); */
+}
+.line-4-skill {
+    width: 220px;
+    height: 4px;
+    border-radius: 10px;
+    border: 1.5px solid #FFB400;
+    background: linear-gradient(to right, #FFB400 75%, white 25%);
+    /* background-image: linear-gradient(from left yellow 60%, white 40%); */
+}
+.line-5-skill {
+    width: 220px;
+    height: 4px;
+    border-radius: 10px;
+    border: 1.5px solid #FFB400;
+    background: linear-gradient(to right, #FFB400 85%, white 15%);
+    /* background-image: linear-gradient(from left yellow 60%, white 40%); */
+}
+
+
+.main_frame .left_5 {
+    position: relative;
+    width: 186px;
+    height: 148px;
+    margin-top: 25px;
+    margin-left: 45px;
+    /*background-color: aqua;*/
+}
+.skills {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.extra_skill {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    /* padding: auto; */
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 160% */
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.skill_inform {
+    padding-left: 30px;
+}
+
+                      /* midd section */
+.midd_side {
+    margin-bottom: 60px;
+    position: relative;
+    /*font-size: 38px;*/
+    /*margin: 17.1px 31.1px 15px 10px;*/
+}
+
+.yellow {
+    position: absolute;
+    left: 40px;
+    top: 55px;
+    height: 20px;
+    width: 20px;
+    /*height: 15.6px;*/
+    flex-grow: 0;
+    /*margin: 38 4px 5.8px 36;*/
+    object-fit: contain;
+    /*border: solid 2px rgba(255, 180, 0, 0.8);*/
+}
+
+.green {
+    position: absolute;
+    top: 65px;
+    right: 300px;
+    width: 16px;
+    height: 15.6px;
+    flex-grow: 0;
+    margin: 25.3px 270.3px 4.9px 32px;
+    object-fit: contain;
+    /*border: solid 2px rgba(5, 255, 0, 0.8);*/
+
+}
+.polygon {
+    position: absolute;
+    top:380px;
+    right: 45px;
+    width: 16px;
+    height: 15.6px;
+    flex-grow: 0;
+    margin: 30.2px 0 0 4.2px;
+    object-fit: contain;
+    /*border: solid 2px rgba(255, 46, 0, 0.8);*/
+
+}
+.rectang {
+    position: absolute;
+    top: 150px;
+    right: 70px;
+    width: 20px;
+    height: 20.8px;
+    flex-grow: 0;
+    /*margin: 12.1px 124.7px 26.8px 160.2px;*/
+    object-fit: contain;
+    transform: rotate(-334.59deg);
+    /*border: solid 2px rgba(0, 71, 255, 0.8);*/
+
+}
+.midd_frame_side {
+    display: flex;
+    flex-direction: row;
+    width: 971px;
+    height: 454.327px;
+    background: white;
+    margin-bottom: 65px;
+}
+.green2 {
+    position: absolute;
+    bottom: 80px;
+    left: 370px;
+}
+.midd_side_info {
+    width: 499.514px;
+    height: 116.744px;
+    flex-shrink: 0;
+    color: #2B2B2B;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.6%; /*59.328px */
+    margin-top: 10px;
+}
+
+                          /* About My Teks section  */
+.about_me {
+    width: 424.437px;
+    height: 85.612px;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+
+    /* H6 - 16px */
+    font-family: sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-transform: capitalize;
+    padding-top: 25px;
+}
+
+.midd_side_input {                             /* HIRE ME */
+    padding-top: 32px;
+    width: 154px;
+    height: 52px;
+}
+.midd_side_left {
+    margin: 45px;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+
+
+
+}
+.midd_side_right {  /* urtadagi rasm quyilgan joy */
+    padding-bottom: 0px;
+    background: white;
+    margin-bottom: 5px;
+}
+
+.midd_frame_inside {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.server {       /* my server section */
+    color: #2B2B2B;
+    /* H2 - 32px */
+    font-family:sans-serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; /* 39.552px */
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.service_desc {   /* my server section teksi */
+    width: 438px;
+    height: 68px;
+    /*flex-shrink: 0;*/
+    color: #767676;
+    text-align: center;
+    /*font-kerning: none;*/
+    font-feature-settings: 'calt' off;
+    margin-bottom: 5px;
+    /* P-15px paragraph */
+    font-family:sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+}
+.boxes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+
+
+}
+
+.part {    /* servise ichidagi bulimlarni kvadrat shakliga chaqirib olamiz */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 283px;
+    height: 225px;
+    background: white;
+    bottom: 15px;
+}
+.midd_img {    /*rasmlarni joylaymiz*/
+    width: 68px;
+    height: 68px;
+    bottom: 10px;
+    margin: 0 66px 26px;
+}
+
+.midd_name {   /* har bir bulimning yozuvini standat shaklga keltirsh*/
+    color: #2B2B2B;
+    top: 10px;
+    /* H4 - 18px */
     font-family: sans-serif;
     font-size: 18px;
-    font-weight: 500;
     font-style: normal;
-    line-height: 1.24;
-    text-align: left;
-    color: #2b2b2b;
-    margin-left: 45px;
-    position: relative;
+    font-weight: 500;
+    line-height: 120%; /* 22.248px */
+    text-transform: capitalize;
+}
+.midd_desc {
+    width: 200px;
+    height: 24px;
+    flex-grow: 0;
+    margin: 1px 0 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #767676;
+}
+.order {
+    color:#FFB400;
+    margin-top: 70px;
+}
+
+.right_1 {
+    width: 30px;
+    height: 30px;
+    flex-grow: 0;
+    margin: 60px 17px 174px 18px;
+    object-fit: contain;
+}
+
+.right_icon_2 {
+    width: 40px;
+    height: 40px;
+    flex-grow: 0;
+    margin: 35px 12px 0 6px;
+    object-fit: contain;
 }
 

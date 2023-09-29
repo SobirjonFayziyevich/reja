@@ -2,7 +2,7 @@
 
 console.log("Jack Ma maslahatlar");
 const list = [
- 'yaxshi talaba boling', //0-20
+ 'yaxshi student boling', //0-20
  'togri boshiq tanlang va koproq hato qiling', // 20-30
  'oz ishingizni boshlang', // 30-40
  'siz kuchli bolgan narsalarni qiling', //40-50
