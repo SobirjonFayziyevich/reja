@@ -5,6 +5,7 @@ const res = require("express/lib/response");
 const app = express();
 const fs = require("fs");
 
+
 let user;
 fs.readFile("database/user.json", "utf8", (err, data) => {
     if(err) {
@@ -15,15 +16,7 @@ fs.readFile("database/user.json", "utf8", (err, data) => {
 });
 
 //MongoDB choqirish:
-
 const db = require("./server").db();
-
-
-
-
-
-
-
 
 //1: Kirish code
 app.use(express.static("public"));
@@ -37,9 +30,22 @@ app.set("views","views");
 app.set("view engine",  "ejs",);
 
 // 4 Routing code
-
+//reja.ejsga bpg'laydi.
 app.post("/create-item", (req, res) => {
-   //TODO: code with bd here
+    console.log("user entered /create-item");
+   // console.log(req.body);
+   // res.end("success"); // tugallanganda success bulsin.
+    const new_reja = req.body.reja;
+    db.collection("plans").insertOne({reja: new_reja}, (err, data) => { //insertOne bitta qiymat qushish doim 2ta parametri buladi.
+        console.log(data.ops); //mongodb qayatarayopti bu malumotni.
+       res.json(data.ops[0]);  //array orqali index qiymatda malumot kiritish.
+        // if(err) {
+        //     console.log(err);
+        //     res.end("something went wrong");
+        // } else {
+        //     res.end("successfully added");
+        // }
+    });
 });
 
 app.get("/author", (req, res) => {
@@ -47,7 +53,18 @@ app.get("/author", (req, res) => {
 });
 
 app.get("/", function (req,res)  {
-     res.render("reja");
+    console.log('user entered /');
+    db.collection("plans")
+        .find()
+        .toArray((err, data) => {
+        if(err) {  //agar xatolik yuzaga kelsa.
+            console.log(err); //xatolikni look qilsin.
+            res.end("something went wrong"); // nimadir xato buldi.
+        } else {    //aks holda,
+            console.log(data); //dataga kelgan  javobni look qilsak.
+            res.render("reja", { items: data});
+        }
+    });
 });
 
 module.exports = app;
