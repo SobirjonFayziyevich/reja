@@ -1,15 +1,33 @@
+//////// F  ////////
+
+const getReverse = function(str) {
+    for(let i = 0; i <= str.length; i++) {
+        for(let a = i+1; a <= str.length; a++) {
+            if(str[a] === str[i]) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+const input = "Abbos";
+const result = getReverse(input);
+console.log(result)
+
+
 //// Task - E  ////
 
-function reverseString(str) {
-    if (str === "")
-        return "";
-    else
-        return reverseString(str.substr(1)) + str.charAt(0);
-}
-let str = "olleh";
-const input = reverseString(str);
-console.log(input);
-
+// function reverseString(str) {
+//     if (str === "")
+//         return "";
+//     else
+//         return reverseString(str.substr(1)) + str.charAt(0);
+// }
+// let str = "olleh";
+// const input = reverseString(str);
+// console.log(input);
+//
 
 
 //// task - D////
