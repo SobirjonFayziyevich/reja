@@ -1,35 +1,32 @@
+//// Task - E  ////
+
+function reverseString(str) {
+    if (str === "")
+        return "";
+    else
+        return reverseString(str.substr(1)) + str.charAt(0);
+}
+let str = "olleh";
+const input = reverseString(str);
+console.log(input);
+
+
+
 //// task - D////
 
+//
+// function reverse(str) {
+//  if (str==="")
+//   return"";
+//       else
+//        return reverse(str.substring(1)) + str.charAt(0);
+// }
+//
+// let str = "osh";
+// const output = reverse(str);
+// console.log(output);
 
-function reverse(str) {
- if (str==="")
-  return"";
-      else
-       return reverse(str.substring(1)) + str.charAt(0);
-}
-
-let str = "osh";
-const output = reverse(str);
-console.log(output);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+////////////////////////////////////////////////////////
 
 
 // console.log("Jack Ma maslahatlar");
