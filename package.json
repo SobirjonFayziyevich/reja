@@ -21,6 +21,7 @@
   "homepage": "https://github.com/SobirjonFayziyevich/reja#readme",
   "dependencies": {
     "author": "^1.0.0",
+    "axios": "^1.5.1",
     "chalk": "^4.1.2",
     "ejs": "^3.1.9",
     "export": "^0.1.337",

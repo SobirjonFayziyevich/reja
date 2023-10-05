@@ -27,42 +27,41 @@
                class="form-control m-3"
                type="text"
                style="flex: 1"
-             />
+            />
              <button class="btn btn-outline-primary" style="border-radius: 20px">Yangi Reja Qushish</button>
           </div>
         </form>
       </div>
 
 
-<!--        <%=items[0].reja%>-->
 
-        <!--list tuzamiz-->
         <ul id="item-list" class="list-group pb-5">
-            <% items.map(function(item) { %>
-            <li
-                    class="list-group-item list-group-item-info d-flex align-items-center justify-content-between">
+               <% items.map(function(item) { %>
+           <li
+                 class="list-group-item list-group-item-info d-flex align-items-center justify-content-between">
                 <span class="item-text"><%=item.reja%></span>
-                <div>
-                    <button
-                            data-id="<%=item._id%>"
+               <div>
+                   <button
+                           data-id="<%=item._id%>"
                             class="edit-me btn btn-secondary btn-sm mr-1">O'zgartirish</button>
-                    <button
+                   <button
                             data-id="<%=item._id%>"
-                            class="delete-me btn btn-danger btn-sm">O'chirish</button>
-                </div>
-            </li>
-            <% }) %>
-        </ul>
+        class="delete-me btn btn-danger btn-sm">O'chirish</button>
+               </div>
+           </li>
+
+        <% }) %>
+      </ul>
+
+        <button id="clean-all" class="btn btn-danger" style="border-radius: 20px">
+           Hamma Rejalarni O'chirish
+       </button>
 
 
-            <button id="clean-all" class="btn btn-danger" style="border-radius: 20px">
-            Hamma Rejalarni O'chirish
-        </button>
-
-        </div>
   </div>
 
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>  <!-- axiousning pekejidan foydalalanyopmiz-->
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>  <!--axiousning pekejidan foydalalanyopmiz-->
+
      <script src="/browser.js"></script>
   </body>
 </html>
