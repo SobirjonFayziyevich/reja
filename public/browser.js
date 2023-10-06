@@ -54,30 +54,50 @@ document.addEventListener("click", function (e) {
                     console.log("Please try again");
                 });
         }
+});
     //edit operator.
 
-    if (e.target.classList.contains("edit-me")) { //buyerda uzgartirishni suralmoqda.
-        alert("siz edit tugmasini bosdiz");
-    let userInput = prompt(
-        "O'zgartirish kiring", //promp orqali qiymatga uzgartirish kiritmoqdamiz.
-        e.target.parentElement.parentElement.querySelector(".item-text").innerHTML
-    );
-    if (userInput) {
-        axios.post("/edit-item", {
-                id: e.target.getAttribute("data-id"),
+//     document.addEventListener("click",function(e){
+//     if (e.target.classList.contains("edit-me")) { //buyerda uzgartirishni suralmoqda.
+//     let userInput = prompt(
+//         "O'zgartirish kiring", //promp orqali qiymatga uzgartirish kiritmoqdamiz.
+//         e.target.parentElement.parentElement.querySelector(".item-text").innerHTML
+//     );
+//     if (userInput) {
+//         axios.post("/edit-item", {id: e.target.getAttribute("data-id"),
+//                 new_input: userInput,
+//             })
+//             .then((response) => {
+//                 console.log(response);
+//                 e.target.parentElement.parentElement.querySelector(
+//                     ".item-text"
+//                 ).innerHTML = userInput;
+//             })
+//             .catch((err) => {
+//                 console.log("Please try again");
+//             });
+//        }
+//    }
+// });
+
+document.addEventListener("click", function (e) {
+    if (e.target.classList.contains("edit-me")) {
+        let userInput = prompt("edit here",
+            e.target.parentElement.parentElement.querySelector(".item-text").innerHTML);
+        if (userInput) {
+            axios.post("/edit-item", {id: e.target.getAttribute("data-id"),
                 new_input: userInput,
-            })
-            .then((response) => {
-                console.log(response);
+            }).then(response => {
+                console.log(response)
                 e.target.parentElement.parentElement.querySelector(
                     ".item-text"
                 ).innerHTML = userInput;
             })
-            .catch((err) => {
-                console.log("Please try again");
-            });
-       }
-   }
+                .catch(err => {
+                    console.log("fail to edit")
+                });
+        }
+    }
 });
 
 document.getElementById("clean-all").addEventListener("click", function () {
