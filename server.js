@@ -4,7 +4,9 @@ const http = require("http");
 const mongodb = require("mongodb");
 
 let db;
-const connectionString = "mongodb+srv://pirmatovsobir23:KnSHlq9VR0dnUTzc@cluster0.kscois6.mongodb.net/Reja";
+const connectionString =
+     "mongodb+srv://pirmatovsobir23:KnSHlq9VR0dnUTzc@cluster0.kscois6.mongodb.net/Reja";
+
 
 mongodb.connect(
  connectionString,
@@ -23,7 +25,7 @@ mongodb.connect(
        const server = http.createServer(app);
        let PORT = 3000;
        server.listen(PORT, function () {
-           console.log(`the server is running successfully on port: ${PORT}, http://localhost:${PORT}`
+           console.log(`The server is running successfully on port: ${PORT}, http://localhost:${PORT}`
            );
        });
    }

@@ -50,7 +50,8 @@ app.post("/create-item", (req, res) => {
         //     res.end("successfully added");
         // }
         console.log(data.ops);
-        res.json(data.ops[0]);
+        res.json(data.ops[0]);  //  databaseninig ichidagi ops elementi yangi elementni 0 index bn qushayopti frontenga JSON kurinishidagi
+       // element qushayopti.
     });
 });
 
