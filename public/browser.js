@@ -19,9 +19,6 @@ function itemTemplate(item) {
 
 let createField = document.getElementById("create-field");
 
-let item_list = document.getElementById("item-list");
-console.log("Item-list", item_list);
-
 document.getElementById("create-form").addEventListener("submit", function (e) {
          e.preventDefault(); //boshqa pagega utib ketmasligi un buni yozish shart.
 
@@ -83,20 +80,16 @@ document.addEventListener("click", function (e) {
 });
 
 document.getElementById("clean-all").addEventListener("click", function () {
-    document.getElementById("clean-all").addEventListener("click", function (e) {
         axios.post("/delete-all", {delete_all: true})
             .then((response) => {
                 alert(response.data.state);
-                document.location.reload();
+                // document.location.reload();
 
-                while (item_list.firstChild) {
-                    item_list.removeChild(item_list.firstChild);
-                    console.log("elements are remove");
-                }
+                document.getElementById("item-list").innerHTML = ""
             })
             .catch((err) => {
                 console.log("Please try again");
             });
     });
-});
+
 
