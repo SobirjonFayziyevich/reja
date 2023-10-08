@@ -17,7 +17,7 @@ function itemTemplate(item) {
             </li>`;
 }
 
-// let createField = document.getElementById("create-field");
+let createField = document.getElementById("create-field");
 
 let item_list = document.getElementById("item-list");
 console.log("Item-list", item_list);
@@ -82,19 +82,21 @@ document.addEventListener("click", function (e) {
     }
 });
 
-// document.getElementById("clean-all").addEventListener("click", function () {
+document.getElementById("clean-all").addEventListener("click", function () {
     document.getElementById("clean-all").addEventListener("click", function (e) {
-    axios.post("/delete-all", { delete_all: true })
-        .then((response) => {
-            alert(response.data.state);
-            document.location.reload();
+        axios.post("/delete-all", {delete_all: true})
+            .then((response) => {
+                alert(response.data.state);
+                document.location.reload();
 
-            while (item_list.firstChild) {
-                item_list.removeChild(item_list.firstChild);
-                console.log("elements are remove");
-            }
-        })
-        .catch((err) => {
-            console.log("Please try again");
-        });
+                while (item_list.firstChild) {
+                    item_list.removeChild(item_list.firstChild);
+                    console.log("elements are remove");
+                }
+            })
+            .catch((err) => {
+                console.log("Please try again");
+            });
+    });
 });
+
