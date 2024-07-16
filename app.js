@@ -6,14 +6,14 @@ const fs = require("fs");
 
 //MongoDB connect.
 
-// let user;
-// fs.readFile("database/user.json", "utf8", (err, data) => {
-//     if(err) {
-//         console.log("ERROR:", err)
-//     } else {
-//         user = JSON.parse(data)
-//     }
-// });
+let user;
+fs.readFile("database/user.json", "utf8", (err, data) => {
+    if(err) {
+        console.log("ERROR:", err)
+    } else {
+        user = JSON.parse(data)
+    }
+});
 
 //MongoDB chaqirish:
 const db = require("./server").db();
